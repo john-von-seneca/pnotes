@@ -1,12 +1,13 @@
 
 
 
-this is the dude
-https://github.com/gibiansky/IHaskell
+Installing IHaskell Notebook
+==============================
+
+using: https://github.com/gibiansky/IHaskell
 
 Dependencies
-==============
-
+---------------
 1. zeromq
   1. **ubuntu**: ```sudo apt-fast -y install libzmq3-dev```
   1. **mac**: ```brew install zeromq```
@@ -23,12 +24,14 @@ Dependencies
       stack setup
       ```
 
-Main thing
-==========
-
+Finally
+-------
 ```
 git clone https://github.com/gibiansky/IHaskell
 cd Ihaskell
 stack install
 ihaskell install
 ```
+
+The notes are based on the edx course
+[DelftX: FP101x Introduction to Functional Programming](https://courses.edx.org/courses/course-v1:DelftX+FP101x+3T2015/info)
