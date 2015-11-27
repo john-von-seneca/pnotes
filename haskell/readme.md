@@ -33,5 +33,6 @@ stack install
 ihaskell install
 ```
 
-The notes are based on the edx course
-[DelftX: FP101x Introduction to Functional Programming](https://courses.edx.org/courses/course-v1:DelftX+FP101x+3T2015/info)
+The notes are based on the edx course **DelftX: FP101x Introduction to Functional Programming**  
+[edx](https://courses.edx.org/courses/course-v1:DelftX+FP101x+3T2015/info) 
+[github](https://github.com/fptudelft/FP101x-Content-2015)
