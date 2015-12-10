@@ -1,5 +1,8 @@
 file=~/Documents/backup/evernote-musings-2015-12-10.enex
+
 general_pattern='s/([0-9]+).*<pattern>(.*)<\/pattern>.*/\1 :: \2/'
+general_command=`ag "<pattern>" $file | sed -E $general_pattern`
+$general_command
 
 pattern_title=`echo $general_pattern | sed -E 's/pattern/title/g'`
 results_title=`ag '<title>' $file | sed -E $pattern_title`
